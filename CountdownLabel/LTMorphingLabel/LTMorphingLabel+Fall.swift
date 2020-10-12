@@ -95,12 +95,12 @@ extension LTMorphingLabel {
                 // Fall down if drawingProgress is more than 50%
                 if limbo.drawingProgress > 0.5 {
                     let ease = CGFloat(
-                        LTEasing.easeInQuint(
-                            Float(limbo.drawingProgress - 0.4),
-                            0.0,
-                            1.0,
-                            0.5
-                        )
+//                        LTEasing.easeInQuint(
+//                            Float(limbo.drawingProgress - 0.4),
+//                            0.0,
+//                            1.0,
+//                            0.5
+//                        )
                     )
                     charBottomY += ease * 10.0
                     let fadeOutAlpha = min(
